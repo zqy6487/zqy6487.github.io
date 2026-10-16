@@ -15,3 +15,5 @@ main{min-width:0;max-width:850px}section{margin-bottom:38px}h2{font-size:29px;li
 @media print{header,.skip,footer>a{display:none}.layout{padding:0;grid-template-columns:160px 1fr;gap:25px}.profile{position:static}.portrait-wrap,.portrait-wrap img{width:145px;height:145px}body{font-size:12px}h2{font-size:20px}h3{font-size:15px}.honors-list li,.publication,.publication strong{font-size:12px}}
 
 .fieldwork{margin-top:22px}.fieldwork h4{font-size:19px;line-height:1.4;font-weight:650;margin:0 0 7px}.fieldwork p:last-child{margin-bottom:0}
+
+.activity-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;column-gap:24px;margin-bottom:10px}.activity-heading h3,.activity-heading h4,.activity-heading .date{margin:0}.activity-heading .date{text-align:right;white-space:nowrap}.profile .school{margin-top:0}@media(max-width:700px){.activity-heading{column-gap:14px}.activity-heading .date{font-size:13px}.profile .portrait-wrap{grid-row:1/3}}
