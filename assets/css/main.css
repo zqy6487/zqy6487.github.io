@@ -13,3 +13,5 @@ main{min-width:0;max-width:850px}section{margin-bottom:38px}h2{font-size:29px;li
 @media(max-width:360px){.profile{grid-template-columns:96px minmax(0,1fr);column-gap:14px}.portrait-wrap,.portrait-wrap img{width:96px;height:96px}.profile h1{font-size:21px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{header,.skip,footer>a{display:none}.layout{padding:0;grid-template-columns:160px 1fr;gap:25px}.profile{position:static}.portrait-wrap,.portrait-wrap img{width:145px;height:145px}body{font-size:12px}h2{font-size:20px}h3{font-size:15px}.honors-list li,.publication,.publication strong{font-size:12px}}
+
+.fieldwork{margin-top:22px}.fieldwork h4{font-size:19px;line-height:1.4;font-weight:650;margin:0 0 7px}.fieldwork p:last-child{margin-bottom:0}
